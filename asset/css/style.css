@@ -12,7 +12,7 @@ body {
 }
 
 .pic {
-    height: 800px;
+    height: 700px;
     width: 100%;
     margin: 0;
     background-image: url("../img/bd.jpg");
@@ -148,7 +148,7 @@ body {
   .container-stud {
     left: 30%;
     width: 90em;
-    height: 90em;
+    height: 100%;
     position: relative;
 
 }
@@ -157,7 +157,7 @@ body {
     /* top: 20%; */
     left: 30%;
     width: 90em;
-    height: 90em;
+    height: 100%;
     /* margin-top: -9em;
     margin-left: -15em; */
     position: relative;
