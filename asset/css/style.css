@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    
+}
+
+.pic {
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    background-image: url("../img/bd.jpg");
+    background-size: cover;
+}
+
+.main-title {
+    font-size: 8em;
+    text-align: center;
+    color: bisque;
+}
+
+.top-level {    
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+
+
+.container {
+    margin: 10px -5px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+.nav-bar {
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(111, 0, 255);
+}
+
+
+.nav-items {  
+    align-content:  center;
+}
+
+.nav-bar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown-content {
+    float: left;
+    /* float: left; */
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .nav-items a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  #card-1 {
+    background-color: blue;
+  }
+
+  #card-2 {
+    background-color:   aqua;
+  }
+
+  #card-3 {
+    background-color: orange;
+  }
+
+  #card-4 {
+    background-color: rebeccapurple;
+  }
+
+  /* Stud CSS */
+
+  .container-stud {
+    left: 30%;
+    width: 90em;
+    height: 90em;
+    position: relative;
+
+}
+
+.container-female {
+    /* top: 20%; */
+    left: 30%;
+    width: 90em;
+    height: 90em;
+    /* margin-top: -9em;
+    margin-left: -15em; */
+    position: relative;
+
+}
+
+  #card-stud, #card-female {
+    margin-right: -10px;
+    margin-top: 10px;
+    background-color: blue;
+  }
+
+  /* female CSS */
+
+
+  @media screen and (max-width: 600px) {
+    .top-level {
+        width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+
+    .pic {
+        height: 200px;
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 3em;
+        text-align: center;
+        color: black;
+    }
+
+    .container-stud {
+        position:inherit;
+        width: 100%;
+  }
+
+  .container-female {
+    position:inherit;
+    width: 100%;
+}
+}
